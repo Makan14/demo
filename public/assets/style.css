@@ -1,0 +1,50 @@
+/* nav */
+.navbar{
+    margin: 20px;
+    display: flex;
+    justify-content: center !important;
+}
+
+
+/* titre */
+.title{
+    text-align: center;
+    margin: 50px;
+    font-size: 50px;
+}
+
+/* bandeau */
+.bandeau{
+    width: 100%;
+    height: 800px;
+    background: url(../assets/img/maillots.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.txt{
+    position: absolute;
+    z-index: 555;
+    left: 400px;
+    bottom: 200px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    background-color: rgb(66, 0, 209);
+    border-radius: 10px; 
+    width: 50%;
+}
+
+.maillot{
+    display: flex;
+    margin: 50px 200px;
+}
+
+.box{
+    background: rgb(155, 155, 155); 
+    margin: 100px 100px;
+    border-radius: 10px;
+}
+
+.bloc{
+    margin: 200px 200px;   
+}
