@@ -14,6 +14,8 @@
         {% block javascripts %}
         {# cdn bootstrap js #} 
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> 
+          <!-- cdn font awesome -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         {% endblock %}
     </head>
     <body>
@@ -38,6 +40,32 @@
               </nav>
         
         </header>
-        {% block body %}{% endblock %} 
+
+
+        {% block body %}
+
+        {% endblock %} 
+        
+        <footer>
+          <div class="boxDown">
+
+            <div class="regles">
+              <ul>
+                <li>Conditions légales</li> 
+                <li>Copyright 2022</li>
+                <li>Règles d'utilisation</li>
+              </ul>
+            </div>
+
+            <div class="socialMedia">
+              <ul>
+                <li> <i class="fab fa-twitter"></i> </li>
+                <li> <i class="fab fa-facebook"></i> </li>
+                <li> <i class="fab fa-instagram-square"></i> </li> 
+              </ul>
+            </div>
+
+          </div>
+        </footer>
     </body>
 </html>

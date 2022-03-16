@@ -1,6 +1,6 @@
 /* nav */
 .navbar{
-    margin: 20px;
+    padding: 200px 100px; 
     display: flex;
     justify-content: center !important;
 }
@@ -10,7 +10,7 @@
 .title{
     text-align: center;
     margin: 50px;
-    font-size: 50px;
+    font-size: 50px; 
 }
 
 /* bandeau */
@@ -47,4 +47,33 @@
 
 .bloc{
     margin: 200px 200px;   
+}
+
+/* footer */
+.boxDown{
+    background: rgb(0, 16, 235);
+    color: white;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+   
+}
+
+.regles ul{
+    display: flex;
+    justify-content: space-between; 
+}
+
+.regles ul li{
+    list-style-type: none;
+}
+
+.socialMedia ul{
+    display: flex;
+}
+
+.socialMedia ul li{
+    list-style-type: none;  
 }

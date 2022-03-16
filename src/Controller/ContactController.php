@@ -8,7 +8,7 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class ContactController extends AbstractController
 {  
-    // nanotation route
+    // anotation route (ce n est pas 1 commentaire)
     /**
      * @Route("/contact", name="app_contact")
      */
@@ -19,7 +19,7 @@ class ContactController extends AbstractController
 
         return $this->render('contact/index.html.twig', [
             "Formulaire" => $form
-        ]);
+        ]); 
     }
 }
   
